@@ -1,6 +1,9 @@
 # Form with dynamic fields
 > This application demonstrates one of the ways to make a form with dynamic fields, using custom hooks and functional components.
 
+## Install
+### `npm install`
+
 ## Available Scripts
 
 In the project directory, you can run:
