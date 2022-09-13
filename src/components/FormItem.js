@@ -8,7 +8,7 @@ function FormItem({ id, element, handleChange, handleRemove }) {
         <input 
           type="text" 
           name={'first_name-' + id} 
-          value={element['firt_name-' + id]} 
+          value={element['firt_name']} 
           onChange={(e)=> { handleChange(e, id) }} />
       </div>
       <div className='form-row'>
@@ -16,7 +16,7 @@ function FormItem({ id, element, handleChange, handleRemove }) {
         <input 
           type="text" 
           name={'last_name-' + id}
-          value={element['last_name-' + id]}
+          value={element['last_name']}
           onChange={(e)=> { handleChange(e, id) }} />
       </div>
       <div className='form-row'>
@@ -24,7 +24,7 @@ function FormItem({ id, element, handleChange, handleRemove }) {
         <input 
           type="email" 
           name={'email-' + id}
-          value={element['email-' + id]}
+          value={element['email']}
           onChange={(e)=> { handleChange(e, id) }} />
         <button onClick={(e) => { handleRemove(e, id)}}>Remove item</button>
       </div>
